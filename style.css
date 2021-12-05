@@ -1,0 +1,687 @@
+.first-img {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.header-logo {
+  height: 20px
+}
+
+.header-logo:hover {
+  opacity: 0.7;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item-link {
+  color: black;
+  text-decoration: none;
+}
+
+.counseling-link {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+
+.main-tag {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.sub-tag {
+  display: block;
+  font-size: 5px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.menu-item1:hover {
+  opacity: 0.7;
+}
+.menu-item2:hover {
+  opacity: 0.7;
+}
+.menu-item3:hover {
+  opacity: 0.7;
+}
+.menu-item4:hover {
+  opacity: 0.7;
+}
+.menu-item5:hover {
+  opacity: 0.7;
+}
+.menu-item6:hover {
+  opacity: 0.7;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 10vw;
+}
+
+.first-img-sp {
+  display: none;
+}
+
+.main-img {
+  text-align: center;
+  margin-bottom: 45px;
+  float: left;
+  margin-left: 12vw;
+  padding-right: 25vw;
+}
+
+.img-contents {
+  vertical-align: middle;
+}
+
+.img2 {
+  width: 200px;
+}
+
+.botton-contents {
+  text-align: center;
+  float: left;
+  margin-left: 10vw;
+}
+
+.counseling-botton {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 23px 45px;
+  border-radius: 100px;
+}
+
+.counseling-botton:hover {
+  opacity: 0.7;
+}
+
+.request-botton {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 23px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  margin-left: 30px;
+}
+
+.request-botton:hover {
+  opacity: 0.7;
+}
+
+.annotation-overall {
+  text-align: center;
+  display: block;
+}
+
+.annotation {
+  font-size: 12px;
+  color: gray;
+  margin-top: 100px;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.terms {
+  text-decoration: none;
+  color: gray;
+}
+
+.chapter1 {
+  background-color: orange;
+}
+
+.potepan-contents {
+  display: flex;
+  padding: 20px 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.po-co-about {
+  width: 60%;
+  color: white;
+}
+
+.potepancamp-about {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.po-about-heading {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.po-about-paragraph {
+  width: 85%;
+}
+
+.content-about {
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 100px;
+}
+
+.content-about:hover {
+  opacity: 0.7;
+}
+
+.cha1-content {
+  text-decoration: none;
+}
+
+.cha-co-main {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: orange;
+}
+
+.cha-co-sub {
+  display: block;
+  font-size: 5px;
+  text-align: center;
+  color: orange;
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.nav-menu-sp {
+  display: none;
+}
+
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .header-contents {
+    padding :15px 5px;
+    margin: 0 20px 80px 20px;
+  }
+  
+  .header-logo {
+    height: 20px
+  }
+  
+  .header-logo:hover {
+    opacity: 0.7;
+  }
+  
+  .menu-btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: black;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: rgba(0,0,0,0.8);
+    transition: all 0.5s;
+    margin-top: 60px;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu-sp {
+    display: block;
+    margin: 30px;
+  }
+  
+  .menu-item-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .counseling-link {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .main-tag {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  .sub-tag {
+    font-size: 8px;
+    text-align: center;
+    color: orange;
+    padding-top: 5px;
+    margin: 0;
+  }
+  
+  .menu-item1:hover {
+    opacity: 0.7;
+  }
+  .menu-item2:hover {
+    opacity: 0.7;
+  }
+  .menu-item3:hover {
+    opacity: 0.7;
+  }
+  .menu-item4:hover {
+    opacity: 0.7;
+  }
+  .menu-item5:hover {
+    opacity: 0.7;
+  }
+  .menu-item6:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .first-img {
+    background-image: none;
+    padding-top: 0;
+  }
+  
+  .header-contents {
+    padding :15px 5px;
+    margin: 0 20px;
+  }
+  
+  .header-logo {
+    height: 20px
+  }
+  
+  .header-logo:hover {
+    opacity: 0.7;
+  }
+  
+  .menu-btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: black;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: rgba(0,0,0,0.8);
+    transition: all 0.5s;
+    margin-top: 60px;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu-sp {
+    display: block;
+    margin: 30px;
+  }
+  
+  .menu-item-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .counseling-link {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .main-tag {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  .sub-tag {
+    font-size: 8px;
+    text-align: center;
+    color: orange;
+    padding-top: 5px;
+    margin: 0;
+  }
+  
+  .menu-item1:hover {
+    opacity: 0.7;
+  }
+  .menu-item2:hover {
+    opacity: 0.7;
+  }
+  .menu-item3:hover {
+    opacity: 0.7;
+  }
+  .menu-item4:hover {
+    opacity: 0.7;
+  }
+  .menu-item5:hover {
+    opacity: 0.7;
+  }
+  .menu-item6:hover {
+    opacity: 0.7;
+  }
+  
+  .heading1 {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: -45vw;
+    float: none;
+    margin-left: 0;
+  }
+  
+  .first-img-sp {
+    display: block;
+    width: 100%;
+  }
+  
+  .main-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+    float: none;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  
+  .img-contents {
+    vertical-align: middle;
+    width: 25%;
+  }
+  
+  .img2 {
+    width: 35%;
+  }
+  
+  .botton-contents {
+    width: 100%;
+    display: inline-grid;
+    margin-left: 0;
+  }
+  
+  .counseling-botton {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 23px 45px;
+    border-radius: 100px;
+    margin: 20px;
+  }
+  
+  .counseling-botton:hover {
+    opacity: 0.7;
+  }
+  
+  .request-botton {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 23px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    margin: 20px;
+  }
+  
+  .request-botton:hover {
+    opacity: 0.7;
+  }
+  
+  .annotation-overall {
+    margin: 0 5px;
+  }
+  
+  .annotation {
+    margin-top: 40px;
+  }
+  
+  .terms {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .chapter1 {
+    background-color: orange;
+  }
+  
+  .potepan-contents {
+    margin :40px 0;
+    padding: 20px 5px;
+    flex-direction: column;
+  }
+  
+  .po-co-about {
+    width: 100%;
+    color: white;
+  }
+  
+  .potepancamp-about {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .po-about-heading {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  .po-about-paragraph {
+    width: 100%;
+    margin: 30px 0;
+  }
+  
+  .content-about:hover {
+    opacity: 0.7;
+  }
+  
+  .cha1-content {
+    text-decoration: none;
+  }
+  
+  .cha-co-sub {
+    display: block;
+    font-size: 5px;
+    text-align: center;
+    color: orange;
+  }
+}
